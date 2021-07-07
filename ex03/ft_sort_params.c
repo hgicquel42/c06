@@ -29,10 +29,10 @@ void	ft_sort(int argc, char **argv)
 	char	*t;
 
 	i = 1;
-	while (i < argc - 1)
+	while (i < argc)
 	{
-		j = 0;
-		while (j < argc - i - 1)
+		j = 1;
+		while (j < argc - i)
 		{
 			if (ft_strcmp(argv[j], argv[j + 1]) > 0)
 			{
